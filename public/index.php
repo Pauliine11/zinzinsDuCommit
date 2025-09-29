@@ -1,9 +1,9 @@
 <?php
 require_once(__DIR__ . '/../vendor/autoload.php');
 
-use Config\Tata;
+use Config\Router;
 
-$router = new Tata();
+$router = new Router();
 
 $router->addRoute('/', 'HomeController', 'index');
 
