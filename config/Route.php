@@ -5,7 +5,7 @@ namespace config;
 // On importe le contrôleur d'erreurs pour afficher une page 404
 use App\Controllers\ErrorController;
 
-class Tata
+class Router
 {
     // Tableau qui contiendra toutes les routes définies dans l'application.
     // Chaque entrée du tableau sera de la forme : "/chemin" => ["controller" => "NomDuController", "method" => "nomDeLaMethode"]
