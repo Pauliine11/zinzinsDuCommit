@@ -11,22 +11,30 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="navbar">
-                <div class="logo">
-                    <a href="/assets/img/logo.png"></a>
-                </div>
-                <div class="list-darkmode-menu">
-                    <ul>
-                        <li><a href="#home">Acceuil</a></li>
-                        <li><a href="#about">À propos</a></li>
-                        <li><a href="#services">Compétences</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="/assets/img/logo.png" alt="logo" width="75px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            </div>
         </div>
+    </nav>
     </header>
     <main>
 
