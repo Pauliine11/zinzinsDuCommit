@@ -12,9 +12,9 @@ require_once(__DIR__ . '/partials/head.view.php');
                 <label for="pseudo" class="form-label" >Pseudo :</label>
                 <input type="text" class="form-control" name="pseudo">
                 <?php
-                    if(isset($arrayError['pseudo'])){
+                    if(isset($this->arrayError['pseudo'])){
                       ?>
-                      <p class="text-danger"><?= $arrayError['pseudo']?></p>
+                      <p class="text-danger"><?= $this->arrayError['pseudo']?></p>
                       <?php  
                     }
                 ?>
@@ -24,9 +24,9 @@ require_once(__DIR__ . '/partials/head.view.php');
                 <label for="email" class="form-label mt-3">E-mail :</label>
                 <input type="email" class="form-control" name="email">
                 <?php
-                    if(isset($arrayError['email'])){
+                    if(isset($this->arrayError['email'])){
                       ?>
-                      <p class="text-danger"><?= $arrayError['email']?></p>
+                      <p class="text-danger"><?= $this->arrayError['email']?></p>
                       <?php  
                     }
                 ?>
@@ -36,9 +36,9 @@ require_once(__DIR__ . '/partials/head.view.php');
                 <label for="password" class="form-label mt-3">Mot de passe :</label>
                 <input type="password" class="form-control"  id="password" name="password">
                 <?php
-                    if(isset($arrayError['password'])){
+                    if(isset($this->arrayError['password'])){
                       ?>
-                      <p class="text-danger"><?= $arrayError['password']?></p>
+                      <p class="text-danger"><?= $this->arrayError['password']?></p>
                       <?php  
                     }
                 ?>
@@ -48,9 +48,9 @@ require_once(__DIR__ . '/partials/head.view.php');
                 <label for="description" class="form-label mt-3">Parle moi de ton côté zinzin:</label>
                 <textarea class="form-control" id="description" name="description" style="height: 100px"></textarea>
                 <?php 
-                if(isset($arrayError['description'])){
+                if(isset($this->arrayError['description'])){
                     ?>
-                        <p class="text-danger"><?= $arrayError['description']?></p>
+                        <p class="text-danger"><?= $this->arrayError['description']?></p>
                     <?php
                 }
                 ?>
