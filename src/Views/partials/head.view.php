@@ -8,23 +8,25 @@
     <script src="https://kit.fontawesome.com/f5a1d28d53.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/public/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <nav>
+            <nav class="navbar">
                 <div class="logo">
-                    <a href="public/assets/img/logo.png">Les zinzins du <span>commit</span></a>
+                    <a href="/assets/img/logo.png"></a>
                 </div>
                 <div class="list-darkmode-menu">
                     <ul>
                         <li><a href="#home">Acceuil</a></li>
                         <li><a href="#about">À propos</a></li>
-                        <li><a href="#services">Commits</a></li>
+                        <li><a href="#services">Compétences</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
+    <main>
+
