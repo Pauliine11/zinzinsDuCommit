@@ -4,6 +4,7 @@ namespace config;
 
 // On importe le contrôleur d'erreurs pour afficher une page 404
 use App\Controllers\ErrorController;
+use App\Controllers\RegisterController;
 
 class Router
 {
@@ -45,7 +46,7 @@ class Router
         // On parcourt toutes les routes définies dans $routes
         foreach ($this->routes as $pattern => $routeInfo)
         {
-            // Si l'URI demandée correspond exactement à une route
+            // Si l'URI demandé correspond exactement à une route
             if($uri === $pattern){
 
                 //on passe la variable à true
