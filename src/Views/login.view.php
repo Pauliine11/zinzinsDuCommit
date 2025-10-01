@@ -31,7 +31,7 @@ require_once(__DIR__ . '/partials/head.view.php');
                     }
                 ?>
             </div>
-            <button type="submit" name="connexion" class="colorBtn btn mt-3">Se connecter</button>
+            <button type="submit" name="login" class="colorBtn btn mt-3">Se connecter</button>
         </div>
     </form>
 </section>
