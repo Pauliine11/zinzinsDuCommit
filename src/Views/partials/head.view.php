@@ -32,16 +32,19 @@
             }
         ?>
           <li class="nav-item">
-            <a class="nav-link" href="/deconnexion">Se déconnecter</a>
+            <a class="nav-link active" href="/ajoutCommit">Ajouter un commit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/deconnexion">Se déconnecter</a>
           </li>
         <?php
           } else {
         ?>
           <li class="nav-item">
-            <a class="nav-link" href="/inscription">S'inscrire</a>
+            <a class="nav-link active" href="/inscription">S'inscrire</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/connexion">Se connecter</a>
+            <a class="nav-link active" href="/connexion">Se connecter</a>
           </li>
         <?php
         }
