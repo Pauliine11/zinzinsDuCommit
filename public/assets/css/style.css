@@ -32,3 +32,7 @@ body {
 .colorBtn {
     background-color: rgb(233, 183, 21);
 }
+
+.logo {
+    width: 100px;
+}
