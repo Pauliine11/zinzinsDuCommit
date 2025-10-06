@@ -33,6 +33,10 @@ body {
     background-color: rgb(233, 183, 21);
 }
 
+.greyBtn {
+    background-color: #3e3e3e;
+}
+
 .logo {
     width: 100px;
 }
